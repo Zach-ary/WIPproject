@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Jan2015</title>
+
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" type="text/css" href="../bower_components/normalize-css/normalize.css">
+    
+    <!-- endbuild -->
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    
+  </head>
+
+  <body>
+    <div id="top"> </div>
+    <a href="#newsexpanded">
+      <div class="news"> 
+        <h1>What's New</h1>
+      </div>
+    </a>
+    <div class="music"> 
+      <h1>Listen To Our Music</h1>
+    </div>
+
+    <div class="shop"> 
+      <h1>Download Tunes</h1>
+    </div>
+
+    <div class="contact"> 
+      <h1>Reach Out</h1>
+    </div>
+
+    <div id="newsexpanded"> 
+      <h1>Big Tings Big News</h1>
+        <p>This is where Dino and Terry can talk shit, let people know what shows are coming up, launch new productions and keep their fans in touch. 
+
+        <a href="#top">Go Back Up</a></p>
+    </div>
+
+
+    <h4>Time to fuck shit up!</h4>
+
+    <!-- build:js scripts/main.js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
+
+/*****************************************************************************
+  Jan2015
+******************************************************************************/
+
+
+@import '../../bower_components/bourbon/dist/_bourbon.scss';
+@import '../../bower_components/neat/app/assets/stylesheets/_neat.scss';
+
+
+
+/*****************************************************************************
+  Base Styles
+******************************************************************************/
+
+html, body {
+	background-image: url("https://chizurue.files.wordpress.com/2013/04/blue-stars-wallpaper__yvt2.jpg");
+	height: 100%;
+}
+
+h1 {
+	font-size: 40px;
+	color: green;
+	text-indent: 20px;
+}
+
+p {
+	padding:20px;
+	margin: 5px;
+}
+
+
+
+/*****************************************************************************
+  Layout Styles
+******************************************************************************/
+
+.news {
+	height: 100px;
+	width: 500px;
+	background-color: white;
+	border: tomato 8px solid;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}	
+
+.music {
+	height: 100px;
+	width: 500px;
+	background-color: white;
+	border: tomato 8px solid;
+	position: absolute;
+	left: 20px;
+	top: 150px;
+}
+
+.shop {
+	height: 100px;
+	width: 500px;
+	background-color: white;
+	border: tomato 8px solid;
+	position: absolute;
+	left: 20px;
+	top: 280px;	
+}
+
+.contact {
+	height: 100px;
+	width: 500px;
+	background-color: white;
+	border: tomato 8px solid;
+	position: absolute;
+	left: 20px;
+	top: 410px;
+}
+
+
+h4 {
+	color: blue;
+	font-size: 100px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#newsexpanded {
+	height: 500px;
+	width: 500px;
+	background-color: white;
+	border: tomato 8px solid;
+	position: absolute;
+	left: 20px;
+	top: 5000px;
+	margin: 0px;
+	padding: 3px;
+}	
+
+
+/*****************************************************************************
+  Module Styles
+******************************
